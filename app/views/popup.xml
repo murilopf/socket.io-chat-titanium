@@ -1,0 +1,14 @@
+<Alloy>
+	<View class="container">
+
+		<View id="view_box">
+			<Label id="lbl_putname"/>
+			<TextField id="txt_name" />
+			<View id="btn_confirm" onClick="defineName">
+				<Label id="lbl_confirm"/>
+			</View>
+			<View id="view_space"/>
+		</View>
+
+	</View>
+</Alloy>

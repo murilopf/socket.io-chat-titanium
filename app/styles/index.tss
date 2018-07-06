@@ -1,0 +1,75 @@
+".container": {
+	height: Ti.UI.FILL, width: Ti.UI.FILL,
+	backgroundColor: '#FFFFFF'
+}
+
+'#view_top': {
+	top: "0dp",
+	height: "56dp", width: Ti.UI.FILL,
+	elevation: 4,
+	backgroundColor: "#2188c7"
+}
+
+'#lbl_chat': {
+	text: "Real time chat",
+	color: "#FFFFFF",
+	left: "16dp",
+	font:{
+		fontSize: "20dp"
+	}
+}
+
+'#scrollchat': {
+	height: Ti.UI.FILL,	width: Ti.UI.FILL,
+	top: "60dp", bottom: "60dp",
+	backgroundColor: "#FFFFFF",
+	layout: 'vertical',
+	scrollType: 'vertical'
+}
+
+"#lbl_welcome":{
+	top: "5dp",
+	text: "Welcome to the chat room!",
+	color: "#272727",
+	font:{
+		fontSize: "16dp",
+		fontWeight: "bold"
+	}
+}
+
+'#view_inputAndSendButton': {
+	bottom: "0dp",
+	height: "56dp", width: Ti.UI.FILL,
+	layout: 'horizontal',
+	elevation: 8
+}
+
+'#txt_inputUser': {
+	hintText: "Put your text here...",
+	hintTextColor: "#969696",
+	color: "#272727",
+	height: Ti.UI.FILL, width: "80%",
+	backgroundColor: "#FFF",
+	borderColor: "#969696"
+}
+
+'#view_sendButton': {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: "#969696",
+	borderColor: "#969696"
+}
+
+'#lbl_textButton': {
+	text: "SEND",
+	color: "#FFFFFF",
+	left: "16dp",
+	font:{
+		fontSize: "16dp"
+	},
+	touchEnabled: false
+}
+
+'#view_space': {
+	height: "10dp"
+}

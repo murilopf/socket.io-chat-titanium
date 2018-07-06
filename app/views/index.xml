@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container">
+		<View id="view_top">
+			<Label id="lbl_chat"/>
+		</View>
+
+		<ScrollView id="scrollchat">
+			<Label id="lbl_welcome"/>
+			<View id="view_space"/>
+		</ScrollView>
+
+		<View id="view_inputAndSendButton">
+			<TextField id="txt_inputUser"/>
+			<View id="view_sendButton" onClick="sendMessage">
+				<Label id="lbl_textButton"/>
+			</View>
+		</View>
+
+	</Window>
+</Alloy>

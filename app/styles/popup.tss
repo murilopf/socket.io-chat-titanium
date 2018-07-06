@@ -1,0 +1,55 @@
+".container" : {
+    height: Ti.UI.FILL,
+    width: Ti.UI.FILL,
+    backgroundColor: "#EFEFEF"
+}
+
+'#view_box': {
+    layout: 'vertical',
+    height: Ti.UI.SIZE,
+    width: Ti.UI.FILL,
+    left: "16dp", right: "16dp",
+    backgroundColor: "#FFFFFF",
+    borderRadius: 4
+}
+
+'#lbl_putname': {
+    top: "15dp",
+    text: "Put your name below to enter chat room",
+    color: "#272727",
+    font:{
+        fontSize: "16dp",
+        fontWeight: "bold"
+    }
+}
+
+'#txt_name': {
+    top: "8dp",
+    height: "40dp",
+    width: Ti.UI.FILL,
+    left: "16dp", right: "16dp",
+    backgroundColor: "#FFF",
+    borderColor: "#969696",
+    hintTextColor: "#969696",
+    color: "#272727"
+}
+
+'#btn_confirm': {
+    top: "10dp",
+    height: "40dp", width:"65dp",
+    backgroundColor: "#969696",
+    borderRadius: 4
+}
+
+'#lbl_confirm': {
+    text: "OK",
+    color: "#FFF",
+    font:{
+        fontSize: "14dp"
+    },
+    touchEnabled: false
+}
+
+'#view_space': {
+    height: "15dp"
+}
